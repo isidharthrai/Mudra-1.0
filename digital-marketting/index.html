@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mudra - Digital Marketting</title>
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="../images/favicon.png">
+	<!-- Bootstrap -->
+	<!-- makes the page responsive -->
+    <meta name="viewport" content="width=device-width,  initial-scale=1">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="../index.html" class="navbar-brand"><span style="font-size: 40px;"><span style="color: #1a237e;">M</span>udra</span></a>
+			</div>  
+			<div class="collapse navbar-collapse" id="menu" >
+				<div class="nav navbar-nav">
+					<li><a href="../stock-analyzer/index.html">Stock Analyzer</a></li>
+					<li><a href="../gst-solutions/index.html">GST Solutions</a></li>
+					<li class="active"><a href="../digital-marketting/index.html">Digital Marketting</a></li>
+					<li><a href="../expert-connect/index.html">Expert Connect</a></li>
+					<li><a href="../forum/index.html">Forum</a></li>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><button class="btn btn-defalut btn-md" data-toggle="modal" data-target="#sign-up" style="padding: 10px;"><img src="../images/sign-up.png">&nbsp;Sign Up</button></li>
+						<li class="active"><button class="btn btn-defalut btn-md" data-toggle="modal" data-target="#login" style="padding: 10px;"><img src="../images/login.png">&nbsp;Login</button></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- sign up form -->
+		<div id="sign-up" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+			    <div class="modal-content">
+			    	<div class="modal-header">
+			        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+			        	<h4 class="modal-title"><img src="../images/sign-up.png">&nbsp;Sign Up here!</h4>
+			      	</div>
+				    <div class="modal-body" style="text-align: center;">
+				    	<form action="/sign-up-php" method="">
+				    		<input type="text" name="username" placeholder="Enter Name" style="width: 80%; font-size: 20px; letter-spacing: 2px;" required><br><br>
+				    		<input type="email" name="email" placeholder="Enter email-id" style="width: 80%; font-size: 20px; letter-spacing: 2px;" required><br><br>
+				    		<input type="password" name="password" placeholder="Enter Password" style="width: 80%; font-size: 20px; letter-spacing: 2px;" required><br><br>
+							<button class="btn" style="background: #ffffff; color: #000000; border-color: #000000; border-width: 3px;">Sign Up</button>
+				    	</form>
+				    </div>
+				    <div class="modal-footer">
+				    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				    </div>
+				</div>
+			</div>
+    	</div>
+
+    	<!-- login form -->
+		<div id="login" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+			    <div class="modal-content">
+			    	<div class="modal-header">
+			        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+			        	<h4 class="modal-title"><img src="../images/login.png">&nbsp;Login here!</h4>
+			      	</div>
+				    <div class="modal-body" style="text-align: center;">
+				    	<form action="/sign-up-php" method="">
+				    		<input type="text" name="email" placeholder="Enter email-id/username" style="width: 80%; font-size: 20px; letter-spacing: 2px;" required><br><br>
+				    		<input type="password" name="password" placeholder="Enter Password" style="width: 80%; font-size: 20px; letter-spacing: 2px;" required><br><br>
+				    		<input type="checkbox"> Remember me<br><br>
+							<button class="btn" style="background: #ffffff; color: #000000; border-color: #000000; border-width: 3px;">Login</button>
+				    	</form>
+				    </div>
+				    <div class="modal-footer">
+				    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				    </div>
+				</div>
+			</div>
+    	</div>
+	
+		<!-- Footer -->
+		<div class="container-fluid" style="background: #303040;">
+			<div class="container">
+				<div class="col-md-3" style="padding-top: 30px; padding-bottom: 30px;">
+					 <h4 style="letter-spacing: 2px; color: #fff9c4;"><strong>A LITTLE ABOUT MUDRA.</strong></h4>
+					 <br>
+					 <p style="color: #ffffff; text-align: justify;">
+					 	Mudra is an intelligently built platform, where you can find solutions to invest your money and make profit out of it.<br>
+					 	Developed by team Blue Sky Empires.
+					 </p>
+					 <hr>
+				</div>
+				<div class="col-md-3 " style="padding: 30px;">
+				 	<ul>
+					 	<li style="padding: 10px; margin: 0; list-style: none;"><a href="../stock-analyzer/index.html" style="color: rgba(255, 255, 255, 0.5); text-decoration: none;">Stock Analyzer</a></li>
+						<li style="padding: 10px; margin: 0; list-style: none;"><a href="../gst-solutions/index.html" style="color: rgba(255, 255, 255, 0.5); text-decoration: none;">GST Solutions</a></li>
+						<li style="padding: 10px; margin: 0; list-style: none;"><a href="../digital-marketting/index.html" style="color: rgba(255, 255, 255, 0.5); text-decoration: none;">Digital Marketting</a></li>
+						<li style="padding: 10px; margin: 0; list-style: none;"><a href="../expert-connect/index.html" style="color: rgba(255, 255, 255, 0.5); text-decoration: none;">Expert Connect</a></li>
+						<li style="padding: 10px; margin: 0; list-style: none;"><a href="../forum/index.html" style="color: rgba(255, 255, 255, 0.5); text-decoration: none;">Forum</a></li>
+				 	</ul>
+				 	<hr>
+				</div>
+				<div class="col-md-3" style="padding: 50px; color:rgba(255,255,255,0.5);">
+					<p>
+						Contact us:
+						<br>
+						<img src="../images/email.png">&nbsp;contactus@mudra.xyz
+					</p>
+					<hr>
+				</div>
+				<div class="col-md-3">
+					<a href="../index.html">
+					<img class="img-responsive" style="max-height: 300px; padding:30px;" src="../images/logo.png" alt="Mudra-logo"></a>
+					<hr>
+				</div>
+			</div>
+		
+				<div class="col-md-12 text-center" style="color:rgba(255,255,255,0.5);">
+					<p>
+						&copy; 2017 | All Rights Reserved.<br>
+						Powered by  Mudra.
+					</p>
+				</div>
+		</div>
+
+
+	</body>
+</html>
